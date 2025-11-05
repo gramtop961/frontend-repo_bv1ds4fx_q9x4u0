@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Rocket, Star, Settings, User, Share2, Cube } from 'lucide-react';
+import { Rocket, Star, Settings, User, Share2, Box } from 'lucide-react';
 
 const features = [
   {
@@ -8,7 +8,7 @@ const features = [
     desc: 'Smartly detects walls, doors, windows and rooms from raster or vector floor plans.'
   },
   {
-    icon: Cube,
+    icon: Box,
     title: 'Instant 3D Model',
     desc: 'Generates navigable 3D scenes with camera controls and realistic lighting.'
   },
